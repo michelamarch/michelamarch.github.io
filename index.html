@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+        header {
+            background: #00274C;
+            color: #fff;
+            padding: 1.5rem 2rem;
+        }
+        nav {
+            margin: 12px 0 0 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #FFC72C;
+            margin-right: 1.5rem;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .about-grid {
+            display: flex;
+            align-items: flex-start;
+            gap: 2rem;
+        }
+        .about-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00274C;
+            background: #e5e5e5;
+        }
+        @media (max-width: 600px) {
+            .about-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="publications.html">Publications</a>
+            <a href="experience.html">Experience</a>
+            <a href="cv.html">CV</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <img class="about-img" src="headshot.jpg" alt="Photo of Michela Marchini">
+                <div>
+                    <p>
+                        <!-- Write a brief bio here -->
+                        Hello! I am Michela Marchini, a first-year Computer Science and Engineering (CSE) PhD student at the University of Michigan studying NLP and computational social science. I am advised by David Jurgens and am a member of the <a href="https://blablablab.si.umich.edu/">Blablablab</a>. My research thus far has been in NLP in the domains of political lamguage and discourse and in speech in the domain of code-switching and prosody.  
+                        I graduated with a BA in Computer Science and Spanish from Mount Holyoke College in 2022 and a MS in Computer Science from Stanford in 2024.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
